@@ -12,7 +12,7 @@ model = joblib.load("ml/sales_model.joblib")
 
 # Function to fetch data from SQLite database
 def load_data():
-    conn = sqlite3.connect('bigmart.db')
+    conn = sqlite3.connect(r"C:\Users\SUMANTH GOUD\OneDrive\Documents\OneDrive\Desktop\PGP\Kafka__Project\bigmart.db")
     cursor = conn.cursor()
 
     # Check if the table exists
