@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.db
+.env
+model.pkl
+# Ignore the virtual environment
+venv/
