@@ -27,7 +27,7 @@ Docker – (optional) for containerized deployment
 
 Kafka Producer
 
-Reads from bigmartsalws.csv line-by-line
+Reads from bigmartsales.csv line-by-line
 
 Sends records to a Kafka topic every few seconds
 
